@@ -9,7 +9,9 @@ Paste your answers into this file.
 ## Print every number from 0 to 10
 
 ```
-ANSWER HERE
+for ( i = 0; i < 9; i++) { 
+  console.log (i);
+}
 ```
 
 <br>
@@ -17,7 +19,9 @@ ANSWER HERE
 ## Print every number from 10 to 0
 
 ```
-ANSWER HERE
+for ( i = 10; i > 0; i--) { 
+  console.log (i);
+}
 ```
 
 <br>
@@ -25,7 +29,9 @@ ANSWER HERE
 ## Print every number from 4 to -16
 
 ```
-ANSWER HERE
+for ( i = 4; i > -17; i--) { 
+  console.log (i);
+}
 ```
 
 <br>
@@ -50,7 +56,13 @@ If the `number` is evenly divisible by 3 AND evenly divisible by 5, print "Fizzb
 
 
 ```
-ANSWER HERE
+for (var i= 0; i < 100; i++ ){
+	if (i % 3 === 0 )
+		console.log ("fizz")
+	if (i % 5 === 0 )
+		console.log ("buzz")
+if (i % 3 === 0 && i % 5 === 0)  console.log( "Fizzbuzz")
+	} 
 ```
 
 <br>
@@ -61,7 +73,14 @@ ANSWER HERE
 Write a for loop that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen (e.g. "2 is even").
 
 ```
-ANSWER HERE
+for (var i= 0; i < 20; i++ ){
+	
+	if (i % 2 == 0 ){
+		console.log (i +" even")
+	}else{
+		console.log ( i +"odd")
+	} 
+}
 ```
 
 <br>
